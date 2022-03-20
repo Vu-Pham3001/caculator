@@ -97,10 +97,10 @@ export default class App extends Component {
         }
 
 
-        return {
+        return (
             <View style= {styles.container}>
                 <View style={styles.result}>
-                    <text style={styles.resultText}>{this.state.resultText</text>
+                    <text style={styles.resultText}>{this.state.resultText}</text>
                 </View>
                 <View style={styles.calculation}>
                     <text style={styles.calculationText}>{this.state.calculationText}</text>
@@ -114,7 +114,7 @@ export default class App extends Component {
                     </View>
                 </View>
             </View>
-        };
+        );
     }
 }
 const style= StyleSheet.create({
